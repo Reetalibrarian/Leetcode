@@ -7,9 +7,15 @@
 //
 
 #include <iostream>
+#include "1_two_sum.hpp"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+
+    // Test_1: TwoSum
+    TwoSum *twosum = new TwoSum;
+    std::vector<int> nums = {3,2,4};
+    int target = 6;
+    std::vector<int> result = twosum->twoSum(nums, target);
     return 0;
+    
 }
