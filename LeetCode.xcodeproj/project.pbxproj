@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		6DEF8F5F1E75A0EC0028351C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6DEF8F5E1E75A0EC0028351C /* main.cpp */; };
 		6DEF8F671E75A1780028351C /* 1_two_sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6DEF8F651E75A1780028351C /* 1_two_sum.cpp */; };
+		6DEF8F6A1E76E0F50028351C /* 43_Multiply_Strings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6DEF8F681E76E0F50028351C /* 43_Multiply_Strings.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		6DEF8F5E1E75A0EC0028351C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		6DEF8F651E75A1780028351C /* 1_two_sum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 1_two_sum.cpp; sourceTree = "<group>"; };
 		6DEF8F661E75A1780028351C /* 1_two_sum.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = 1_two_sum.hpp; sourceTree = "<group>"; };
+		6DEF8F681E76E0F50028351C /* 43_Multiply_Strings.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 43_Multiply_Strings.cpp; sourceTree = "<group>"; };
+		6DEF8F691E76E0F50028351C /* 43_Multiply_Strings.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = 43_Multiply_Strings.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				6DEF8F5E1E75A0EC0028351C /* main.cpp */,
 				6DEF8F651E75A1780028351C /* 1_two_sum.cpp */,
 				6DEF8F661E75A1780028351C /* 1_two_sum.hpp */,
+				6DEF8F681E76E0F50028351C /* 43_Multiply_Strings.cpp */,
+				6DEF8F691E76E0F50028351C /* 43_Multiply_Strings.hpp */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -125,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DEF8F671E75A1780028351C /* 1_two_sum.cpp in Sources */,
+				6DEF8F6A1E76E0F50028351C /* 43_Multiply_Strings.cpp in Sources */,
 				6DEF8F5F1E75A0EC0028351C /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,6 +258,7 @@
 				6DEF8F641E75A0EC0028351C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,15 +7,25 @@
 //
 
 #include <iostream>
+#include <cstring>
+#include <string>
 #include "1_two_sum.hpp"
+#include "43_Multiply_Strings.hpp"
 
 int main(int argc, const char * argv[]) {
 
     // Test_1: TwoSum
-    TwoSum *twosum = new TwoSum;
+    /*TwoSum *twosum = new TwoSum;
     std::vector<int> nums = {3,2,4};
     int target = 6;
     std::vector<int> result = twosum->twoSum(nums, target);
     return 0;
-    
+     */
+
+    // Teset_2:
+    MultiplyStrings *mutiplyString = new MultiplyStrings;
+    std::string num1 = "29292999";
+    std::string num2 = "329393939";
+    std::string result = mutiplyString->multiply(num1, num2);
+    return 0;
 }
