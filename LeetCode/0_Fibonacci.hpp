@@ -18,5 +18,6 @@ class Fibonacci
 {
 public:
     static long FibonacciSeries(int n);
+    static long FibonacciDivideAndConquer(int n);
 private:
 };

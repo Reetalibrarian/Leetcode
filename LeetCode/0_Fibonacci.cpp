@@ -10,7 +10,7 @@
 #include <iostream>
 
 long Fibonacci::FibonacciSeries (int n) {
-    long first = 1;
+    long first = 0;
     long second = 1;
     long result = 0;
 
@@ -21,4 +21,10 @@ long Fibonacci::FibonacciSeries (int n) {
         std::cout << result <<std::endl;
     }
     return result;
+}
+
+long Fibonacci::FibonacciDivideAndConquer(int n) {
+    if (n == 0) return 0;
+    if (n == 1) return 1;
+    return FibonacciDivideAndConquer(n-1) + FibonacciDivideAndConquer(n-2);
 }

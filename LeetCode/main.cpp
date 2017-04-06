@@ -34,6 +34,8 @@ int main(int argc, const char * argv[]) {
 
     // Test_0: Fibonacci
     int n = 10;
-    long result = Fibonacci::FibonacciSeries(n);
+    long result1 = Fibonacci::FibonacciSeries(n);
+    long result2 = Fibonacci::FibonacciDivideAndConquer(n);
+    std::cout << "result 1 = " << result1 <<  "\nresult 2 = " << result2 << std::endl;
     return 0;
 }
