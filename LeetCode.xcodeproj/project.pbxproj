@@ -1,0 +1,272 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D668CEE1E96878E0001054C /* 0_Fibonacci.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D668CEC1E96878E0001054C /* 0_Fibonacci.cpp */; };
+		6DEF8F5F1E75A0EC0028351C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6DEF8F5E1E75A0EC0028351C /* main.cpp */; };
+		6DEF8F671E75A1780028351C /* 1_two_sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6DEF8F651E75A1780028351C /* 1_two_sum.cpp */; };
+		6DEF8F6A1E76E0F50028351C /* 43_Multiply_Strings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6DEF8F681E76E0F50028351C /* 43_Multiply_Strings.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6DEF8F591E75A0EC0028351C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6D668CEC1E96878E0001054C /* 0_Fibonacci.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 0_Fibonacci.cpp; sourceTree = "<group>"; };
+		6D668CED1E96878E0001054C /* 0_Fibonacci.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = 0_Fibonacci.hpp; sourceTree = "<group>"; };
+		6DEF8F5B1E75A0EC0028351C /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DEF8F5E1E75A0EC0028351C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6DEF8F651E75A1780028351C /* 1_two_sum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 1_two_sum.cpp; sourceTree = "<group>"; };
+		6DEF8F661E75A1780028351C /* 1_two_sum.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = 1_two_sum.hpp; sourceTree = "<group>"; };
+		6DEF8F681E76E0F50028351C /* 43_Multiply_Strings.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 43_Multiply_Strings.cpp; sourceTree = "<group>"; };
+		6DEF8F691E76E0F50028351C /* 43_Multiply_Strings.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = 43_Multiply_Strings.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DEF8F581E75A0EC0028351C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6DEF8F521E75A0EB0028351C = {
+			isa = PBXGroup;
+			children = (
+				6DEF8F5D1E75A0EC0028351C /* LeetCode */,
+				6DEF8F5C1E75A0EC0028351C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6DEF8F5C1E75A0EC0028351C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DEF8F5B1E75A0EC0028351C /* LeetCode */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DEF8F5D1E75A0EC0028351C /* LeetCode */ = {
+			isa = PBXGroup;
+			children = (
+				6DEF8F5E1E75A0EC0028351C /* main.cpp */,
+				6DEF8F651E75A1780028351C /* 1_two_sum.cpp */,
+				6DEF8F661E75A1780028351C /* 1_two_sum.hpp */,
+				6DEF8F681E76E0F50028351C /* 43_Multiply_Strings.cpp */,
+				6DEF8F691E76E0F50028351C /* 43_Multiply_Strings.hpp */,
+				6D668CEC1E96878E0001054C /* 0_Fibonacci.cpp */,
+				6D668CED1E96878E0001054C /* 0_Fibonacci.hpp */,
+			);
+			path = LeetCode;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6DEF8F5A1E75A0EC0028351C /* LeetCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DEF8F621E75A0EC0028351C /* Build configuration list for PBXNativeTarget "LeetCode" */;
+			buildPhases = (
+				6DEF8F571E75A0EC0028351C /* Sources */,
+				6DEF8F581E75A0EC0028351C /* Frameworks */,
+				6DEF8F591E75A0EC0028351C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeetCode;
+			productName = LeetCode;
+			productReference = 6DEF8F5B1E75A0EC0028351C /* LeetCode */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DEF8F531E75A0EB0028351C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = YILING;
+				TargetAttributes = {
+					6DEF8F5A1E75A0EC0028351C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6DEF8F561E75A0EC0028351C /* Build configuration list for PBXProject "LeetCode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6DEF8F521E75A0EB0028351C;
+			productRefGroup = 6DEF8F5C1E75A0EC0028351C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DEF8F5A1E75A0EC0028351C /* LeetCode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DEF8F571E75A0EC0028351C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DEF8F671E75A1780028351C /* 1_two_sum.cpp in Sources */,
+				6DEF8F6A1E76E0F50028351C /* 43_Multiply_Strings.cpp in Sources */,
+				6D668CEE1E96878E0001054C /* 0_Fibonacci.cpp in Sources */,
+				6DEF8F5F1E75A0EC0028351C /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6DEF8F601E75A0EC0028351C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6DEF8F611E75A0EC0028351C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6DEF8F631E75A0EC0028351C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6DEF8F641E75A0EC0028351C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DEF8F561E75A0EC0028351C /* Build configuration list for PBXProject "LeetCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DEF8F601E75A0EC0028351C /* Debug */,
+				6DEF8F611E75A0EC0028351C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DEF8F621E75A0EC0028351C /* Build configuration list for PBXNativeTarget "LeetCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DEF8F631E75A0EC0028351C /* Debug */,
+				6DEF8F641E75A0EC0028351C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DEF8F531E75A0EB0028351C /* Project object */;
+}
