@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6D668CEE1E96878E0001054C /* 0_Fibonacci.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D668CEC1E96878E0001054C /* 0_Fibonacci.cpp */; };
+		6D668CF11E969CD30001054C /* 0_BinarySearch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D668CEF1E969CD30001054C /* 0_BinarySearch.cpp */; };
 		6DEF8F5F1E75A0EC0028351C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6DEF8F5E1E75A0EC0028351C /* main.cpp */; };
 		6DEF8F671E75A1780028351C /* 1_two_sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6DEF8F651E75A1780028351C /* 1_two_sum.cpp */; };
 		6DEF8F6A1E76E0F50028351C /* 43_Multiply_Strings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6DEF8F681E76E0F50028351C /* 43_Multiply_Strings.cpp */; };
@@ -28,6 +29,8 @@
 /* Begin PBXFileReference section */
 		6D668CEC1E96878E0001054C /* 0_Fibonacci.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 0_Fibonacci.cpp; sourceTree = "<group>"; };
 		6D668CED1E96878E0001054C /* 0_Fibonacci.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = 0_Fibonacci.hpp; sourceTree = "<group>"; };
+		6D668CEF1E969CD30001054C /* 0_BinarySearch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 0_BinarySearch.cpp; sourceTree = "<group>"; };
+		6D668CF01E969CD30001054C /* 0_BinarySearch.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = 0_BinarySearch.hpp; sourceTree = "<group>"; };
 		6DEF8F5B1E75A0EC0028351C /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DEF8F5E1E75A0EC0028351C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		6DEF8F651E75A1780028351C /* 1_two_sum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 1_two_sum.cpp; sourceTree = "<group>"; };
@@ -73,6 +76,8 @@
 				6DEF8F691E76E0F50028351C /* 43_Multiply_Strings.hpp */,
 				6D668CEC1E96878E0001054C /* 0_Fibonacci.cpp */,
 				6D668CED1E96878E0001054C /* 0_Fibonacci.hpp */,
+				6D668CEF1E969CD30001054C /* 0_BinarySearch.cpp */,
+				6D668CF01E969CD30001054C /* 0_BinarySearch.hpp */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -137,6 +142,7 @@
 				6DEF8F671E75A1780028351C /* 1_two_sum.cpp in Sources */,
 				6DEF8F6A1E76E0F50028351C /* 43_Multiply_Strings.cpp in Sources */,
 				6D668CEE1E96878E0001054C /* 0_Fibonacci.cpp in Sources */,
+				6D668CF11E969CD30001054C /* 0_BinarySearch.cpp in Sources */,
 				6DEF8F5F1E75A0EC0028351C /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
